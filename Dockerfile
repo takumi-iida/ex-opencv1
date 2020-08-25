@@ -13,5 +13,4 @@ RUN apt-get update -y && apt-get install -y libopencv-dev \
 RUN pip3 install -r requirements.txt
 
 ARG wdir="/tmp/src"
-ENV work tensor-docker
 WORKDIR $wdir
